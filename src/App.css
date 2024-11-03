@@ -1,0 +1,159 @@
+:root {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.espacioCanva {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+.rootPagina{
+  width: 612px;
+  height: 326px;
+  overflow-y: scroll;
+  background-color: #212121;
+}
+
+.footerCanvas{
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100000;
+}
+
+.footerCanvas > button{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+.footerCanvas > button:hover{
+  background-color: #000000;
+  color: white;
+}
+
+.headerFormulario{
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+
+.headerFormulario > ul{
+  margin-left: 15px;
+  margin-bottom: 0;
+  color: white;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.seccionFormulario{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.seccionFormulario > article{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.797);
+  padding: 20px;
+}
+
+.formulario{
+  width: 100%;
+}
+
+.cajaInputs{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cajaInputs > div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.elementoInput{
+  width: 160px;
+  color: black!important;
+}
+
+.cajaInfoAdicional{
+  margin: 10px 0;
+}
+
+.textoPopover{
+  text-align: start;
+  color: white;
+}
+
+.popover{
+  display: flex;
+  flex-direction: column;
+  border-radius: 0%;
+  background-color: #222222;
+}
+
+.popover > button{
+  background-color: transparent;
+  border: none;
+  border-radius: 0%;
+}
+
+.popover > button:hover{
+  color: black;
+  background-color: whitesmoke;
+}
+
+.hidden{
+  display: none;
+}
+
+.btnEnviar{
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btnEnviar:hover{
+  background-color: #474747;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
